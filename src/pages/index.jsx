@@ -122,34 +122,33 @@ const ProcessDescription = styled.p`
 `;
 
 const ContactForm = styled.form`
-  ${tw('w-full max-w-md inline-flex')};
+  ${tw('w-full max-w-xs')};
 `;
 const ContactContainer = styled.div`
-  ${tw('md:flex-1 md:items-center m-4')};
+  ${tw('md:flex md:items-center mb-6')};
+  width:200%;
 `;
 const ContactLabelContainer = styled.div`
-  ${tw('md:w-full')};
+  ${tw('md:w-1/3')};
 `;
 const ContactInputContainer = styled.div`
-  ${tw('md:w-full')};
-  height: 50%;
-  margin-left: 25%;
-  margin-top: 10%;
-`;
-const ContactSignupContainer = styled.div`
-  ${tw('md:flex md:items-center my-1.5 mx-1')};
+  ${tw('md:w-2/3')};
 `;
 const ContactLabel = styled.label`
-  ${tw('block text-grey font-bold md:text-center mb-1 md:mb-0 pr-4')};
+  ${tw('block text-grey font-bold md:text-right mb-1 md:mb-0 pr-4')};
 `;
 const ContactInput = styled.input`
   ${tw('bg-grey-lighter appearance-none border-2 border-grey-lighter rounded w-full py-2 px-4 text-grey-darker leading-tight focus:outline-none focus:bg-white focus:border-purple')};
+  height:40px;
+`;
+
+const ContactSignupContainer = styled.div`
+  ${tw('md:flex md:items-center')};
+  width:200%;
 `;
 const ContactButton = styled.button`
   ${tw('shadow bg-purple hover:bg-purple-light focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded')};
-  margin-top: 20%;
-  margin-left: 25%;
-  width: 200%;
+  height:40px;
 `;
 
 const Footer = styled.footer`
@@ -334,37 +333,36 @@ const Index = () => (
       <Content speed={0.4} offset={4}>
         <Inner>
           <Title>Schedule a free consultation today</Title>
-          <ContactForm>
+          <ContactForm action="https://formspree.io/duriansocialmedia@gmail.com" method="POST">
             <ContactContainer>
               <ContactLabelContainer>
-                <ContactLabel for="inline-full-name">Name</ContactLabel>
+                <ContactLabel for="inline-full-name">Full Name</ContactLabel>
               </ContactLabelContainer>
               <ContactInputContainer>
-                <ContactInput id="inline-full-name" type="text" placeholder="Jane Doe" />
+                <ContactInput id="inline-full-name" type="text" placeholder="First Last" name="name" />
               </ContactInputContainer>
             </ContactContainer>
             <ContactContainer>
               <ContactLabelContainer>
-                <ContactLabel for="inline-full-name">Email </ContactLabel>
+                <ContactLabel for="inline-email">Email</ContactLabel>
               </ContactLabelContainer>
               <ContactInputContainer>
-                <ContactInput id="inline-full-name" type="text" placeholder="janedoe@gmail.com" />
+                <ContactInput id="inline-email" type="email" placeholder="youremail@xxx.com" name="_replyto" />
               </ContactInputContainer>
             </ContactContainer>
             <ContactContainer>
               <ContactLabelContainer>
-                <ContactLabel for="inline-full-name">Phone </ContactLabel>
+                <ContactLabel for="inline-phone">Phone #</ContactLabel>
               </ContactLabelContainer>
               <ContactInputContainer>
-                <ContactInput id="inline-full-name" type="text" placeholder="xxx-xxx-xxxx" />
+                <ContactInput id="inline-phone" type="tel" placeholder="xxx-xxx-xxxx" name="phone" />
               </ContactInputContainer>
             </ContactContainer>
             <ContactSignupContainer>
+              <ContactLabelContainer />
               <ContactInputContainer>
-                <ContactButton type="button">
-                  Get Started Now
-                </ContactButton>
-                </ContactInputContainer>
+                <ContactButton type="submit">Get Started Now</ContactButton>
+              </ContactInputContainer>
             </ContactSignupContainer>
           </ContactForm>
         </Inner>

@@ -1268,12 +1268,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-24T07:05:51.287Z",
+      "buildTime": "2018-11-24T08:06:44.404Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d19a0de50929884de32fa16a49ecd694",
+        "contentDigest": "27f2ae74aab53a9b69945bcaf0cb581c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1283,7 +1283,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b9a96f980566b82e247120f130371b89",
+        "contentDigest": "5bc0d5ed397f74597c15e4be7de9bf14",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1295,7 +1295,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-11-23T02:15:05.389Z",
-      "accessTime": "2018-11-24T07:06:05.517Z",
+      "accessTime": "2018-11-24T08:06:49.672Z",
       "changeTime": "2018-11-23T02:15:05.389Z",
       "birthTime": "2018-11-23T02:15:05.388Z",
       "root": "/",
@@ -1313,11 +1313,11 @@
       "blksize": 4096,
       "ino": 8920249,
       "blocks": 0,
-      "atimeMs": 1543043165517.3254,
+      "atimeMs": 1543046809672.2068,
       "mtimeMs": 1542939305388.7654,
       "ctimeMs": 1542939305388.7654,
       "birthtimeMs": 1542939305388.0945,
-      "atime": "2018-11-24T07:06:05.517Z",
+      "atime": "2018-11-24T08:06:49.672Z",
       "mtime": "2018-11-23T02:15:05.389Z",
       "ctime": "2018-11-23T02:15:05.389Z",
       "birthtime": "2018-11-23T02:15:05.388Z"
