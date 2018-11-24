@@ -214,7 +214,6 @@ const Index = () => (
           <ProjectsWrapper>
           <ProjectCard
               title="Website Design"
-              link="https://www.behance.net/gallery/58937147/Freiheit"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
               We build custom websites from scratch that wow visitors and drive
@@ -224,7 +223,6 @@ const Index = () => (
             </ProjectCard>
             <ProjectCard
               title="Social Media Management"
-              link="https://www.behance.net/gallery/52915793/Harry-Potter"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
               We offer full-service social media management services. We can
@@ -234,7 +232,6 @@ const Index = () => (
             </ProjectCard>
             <ProjectCard
               title="Search Engine Optimization"
-              link="https://www.behance.net/gallery/43907099/Tomb-Raider"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
               Get found on Google & Bing for relevant searches with our SEO
@@ -244,7 +241,6 @@ const Index = () => (
             </ProjectCard>
             <ProjectCard
               title="Facebook Advertising"
-              link="https://www.behance.net/gallery/38068151/Eagle"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
               Facebook is the largest and most powerful social media advertising
