@@ -2,7 +2,7 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
-  "component---cache-dev-404-page-js": () => import("/Users/pmahajan/Projects/SMMA/gatsby/durian-social/durian-social-media/duriansocialmedia.com/.cache/dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
+  "component---node-modules-gatsby-plugin-offline-app-shell-js": () => import("/Users/pmahajan/Projects/SMMA/gatsby/durian-social/durian-social-media/duriansocialmedia.com/node_modules/gatsby-plugin-offline/app-shell.js" /* webpackChunkName: "component---node-modules-gatsby-plugin-offline-app-shell-js" */),
   "component---src-pages-index-jsx": () => import("/Users/pmahajan/Projects/SMMA/gatsby/durian-social/durian-social-media/duriansocialmedia.com/src/pages/index.jsx" /* webpackChunkName: "component---src-pages-index-jsx" */)
 }
 
